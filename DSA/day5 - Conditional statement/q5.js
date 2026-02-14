@@ -15,7 +15,7 @@ function calculateFinalAmount(amount) {
         dis = 10;
         final = amount - (amount*(dis/100));
         return final;
-    }else if(amount<9000){
+    }else if(amount>9000){
         dis = 20;
         final = amount - (amount*(dis/100));
         return final;
